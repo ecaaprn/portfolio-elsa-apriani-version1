@@ -1,0 +1,2656 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecaa | IT Governance & Front-End Developer Portfolio</title>
+  <meta name="description"
+    content="Portofolio digital Ecaa, spesialisasi IT Governance dan Front-End Developer dengan estetika minimalis dan modern bertema soft pink.">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=20260914_5">
+</head>
+
+<body>
+
+  <!-- Background Blobs -->
+  <div class="bg-blob bg-blob-1"></div>
+  <div class="bg-blob bg-blob-2"></div>
+  <div class="bg-blob bg-blob-3"></div>
+
+  <!-- --- HEADER / NAVIGATION --- -->
+  <header>
+    <div class="nav-container">
+
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link active" data-i18n="nav_home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-i18n="nav_about">About</a></li>
+        <li><a href="#education" class="nav-link" data-i18n="nav_education">Education</a></li>
+        <li><a href="#experience" class="nav-link" data-i18n="nav_experience">Experience</a></li>
+        <li><a href="#project" class="nav-link" data-i18n="nav_project">Projects</a></li>
+        <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Language Switcher -->
+        <div class="lang-switch-container">
+          <button type="button" class="lang-btn active" id="lang-id" data-lang="id" aria-label="Bahasa Indonesia">ID</button>
+          <span class="lang-divider">/</span>
+          <button type="button" class="lang-btn" id="lang-en" data-lang="en" aria-label="English">EN</button>
+        </div>
+
+        <!-- Dark/Light Theme Toggle -->
+        <button type="button" class="theme-toggle-btn" id="theme-toggle" aria-label="Ganti Tema">
+          <i class="fas fa-sun icon-sun"></i>
+          <i class="fas fa-moon icon-moon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- --- HERO SECTION --- -->
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="hero-wrapper">
+          <div class="hero-content">
+
+            <h1 class="hero-title" data-i18n="hero_title">Halo, aku <span>Elsa Apriani</span></h1>
+            <div class="hero-nickname-badge" data-i18n="hero_nickname">
+              Biar makin akrab, panggil aku <strong>Ecaa</strong>
+            </div>
+            <p class="hero-desc" data-i18n="hero_desc">Berfokus pada pengembangan antarmuka web yang responsif (Front-End), standarisasi
+              dan tata kelola sistem (IT Governance), manajemen administrasi proyek TI (IT Project Administrator),
+              serta penjaminan kualitas aplikasi (Quality Assurance).</p>
+          </div>
+
+          <div class="hero-image-container">
+            <div class="hero-circle-accent h-circle-1"></div>
+            <div class="hero-circle-accent h-circle-2"></div>
+            <div class="hero-circle-accent h-circle-3"></div>
+            <div class="hero-circle-accent h-circle-4"></div>
+
+            <!-- Floating Glass Role Badges Around Photo -->
+            <div class="hero-floating-badge badge-top-left" data-i18n="badge_fe">
+              <i class="fas fa-code"></i> Front-End Developer
+            </div>
+
+            <div class="hero-floating-badge badge-top-right" data-i18n="badge_gov">
+              <i class="fas fa-file-contract"></i> IT Governance
+            </div>
+
+            <div class="hero-floating-badge badge-bottom-left" data-i18n="badge_admin">
+              <i class="fas fa-tasks"></i> IT Project Administrator
+            </div>
+
+            <div class="hero-floating-badge badge-bottom-right" data-i18n="badge_qa">
+              <i class="fas fa-vial"></i> Quality Assurance Testing
+            </div>
+
+            <div class="hero-image-frame">
+              <img src="assets/profil_eca.png" alt="Avatar Elsa Apriani" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Divider -->
+    <div class="section-divider">
+      <span class="section-divider-icon"><i class="fas fa-chevron-down"></i></span>
+    </div>
+    <!-- --- ABOUT SECTION --- -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title" data-i18n="about_title">Tentang Aku</h2>
+        <p class="section-subtitle" data-i18n="about_subtitle">Profil singkat, latar belakang pendidikan, serta keahlian utama di bidang teknologi.
+        </p>
+
+        <!-- 1. Intro Card (Landscape Full Width) -->
+        <div class="glass-card about-intro-card">
+          <div class="about-intro-content">
+            <div class="about-intro-text">
+              <p style="margin-bottom: 1.2rem; text-align: justify;" data-i18n="about_intro_1">
+                Lulusan berprestasi Teknik Informatika (IPK 3.92/4.00) dari Universitas Muhammadiyah Prof. Dr. HAMKA dengan pengalaman 1+ tahun di bidang <strong style="color: var(--accent-pink);">IT Governance</strong>, <strong style="color: var(--accent-pink);">IT Project Administration</strong>, <strong style="color: var(--accent-pink);">Front-End Development</strong>, dan <strong style="color: var(--accent-pink);">Quality Assurance Testing</strong>.
+              </p>
+              <p style="margin-bottom: 1.2rem; text-align: justify;" data-i18n="about_intro_2">
+                Selama perjalanan akademik dan profesional, saya telah berhasil menyelesaikan <strong style="color: var(--accent-pink);">10+ proyek berdampak</strong>. Pencapaian teknis utama meliputi perancangan dan dokumentasi <strong style="color: var(--accent-pink);">14 SOP IT Governance komprehensif</strong> (mencakup Backup, Hak Akses, dan operasional Data Center), pengembangan fitur web otomatis serta dashboard dinamis pada platform enterprise seperti <strong style="color: var(--accent-pink);">IVO E-Office</strong> dan <strong style="color: var(--accent-pink);">Tally HBT</strong>, serta memimpin <strong style="color: var(--accent-pink);">User Acceptance Testing (UAT)</strong>, <strong style="color: var(--accent-pink);">Functional Design Diagram (FDD)</strong>, <strong style="color: var(--accent-pink);">Technical Design Diagram (TDD)</strong>, dan tracking proyek melalui Project Charter. Selain itu, saya memegang beberapa sertifikat Hak Kekayaan Intelektual (HKI) serta publikasi jurnal terindeks SINTA.
+              </p>
+              <p style="text-align: justify;" data-i18n="about_intro_3">
+                Saya aktif mencari peluang untuk berkontribusi menggunakan keahlian multidisiplin di bidang <strong style="color: var(--accent-pink);">IT Governance</strong>, <strong style="color: var(--accent-pink);">IT Project Administration</strong>, <strong style="color: var(--accent-pink);">Front-End Development</strong>, dan <strong style="color: var(--accent-pink);">Quality Assurance (QA) Testing</strong> guna membangun solusi TI yang andal dan berkualitas tinggi.
+              </p>
+            </div>
+
+            <!-- Mini Stats Horizontal -->
+            <div class="stats-grid-horizontal">
+              <div class="glass-card stat-item">
+                <div class="stat-num">1+</div>
+                <div class="stat-label" data-i18n="stat_exp">Tahun Pengalaman</div>
+              </div>
+              <div class="glass-card stat-item">
+                <div class="stat-num">10+</div>
+                <div class="stat-label" data-i18n="stat_proj">Projek Selesai</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Secondary Grid: Keahlian Utama & Tools Side-by-Side -->
+        <div class="about-secondary-grid">
+          <!-- Skills Card -->
+          <div class="glass-card about-skills-card">
+            <h3 data-i18n="skills_heading">Keahlian Utama</h3>
+            <div class="skills-wrapper">
+
+              <div class="skill-bar-container">
+                <div class="skill-info">
+                  <span>IT Governance</span>
+                  <span>92%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="92"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-container">
+                <div class="skill-info">
+                  <span>IT Project Administrator</span>
+                  <span>88%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="88"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-container">
+                <div class="skill-info">
+                  <span>Front-End Developer</span>
+                  <span>82%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="82"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-container">
+                <div class="skill-info">
+                  <span>Quality Assurance Testing (QA)</span>
+                  <span>78%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="78"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Tools & Software Card -->
+          <div class="glass-card about-tools-card">
+            <h3 data-i18n="tools_heading">Tools yang Digunakan</h3>
+            <div class="tools-grid-2x2">
+              <div class="tool-group">
+                <div class="tool-group-name">
+                  <i class="fas fa-code"></i> Front-End Developer
+                </div>
+                <div class="tool-tags">
+                  <span class="tool-badge">VS Code</span>
+                  <span class="tool-badge">Tailwind CSS</span>
+                  <span class="tool-badge">GitHub</span>
+                </div>
+              </div>
+
+              <div class="tool-group">
+                <div class="tool-group-name">
+                  <i class="fas fa-tasks"></i> IT Project Administrator
+                </div>
+                <div class="tool-tags">
+                  <span class="tool-badge">Microsoft Excel</span>
+                  <span class="tool-badge">Google Sheets</span>
+                </div>
+              </div>
+
+              <div class="tool-group">
+                <div class="tool-group-name">
+                  <i class="fas fa-file-contract"></i> IT Governance
+                </div>
+                <div class="tool-tags">
+                  <span class="tool-badge">COBIT & ITIL</span>
+                  <span class="tool-badge">Microsoft Visio</span>
+                  <span class="tool-badge">Draw IO</span>
+                </div>
+              </div>
+
+              <div class="tool-group">
+                <div class="tool-group-name">
+                  <i class="fas fa-vial"></i> Quality Assurance Testing (QA)
+                </div>
+                <div class="tool-tags">
+                  <span class="tool-badge">Jira</span>
+                  <span class="tool-badge">Trello</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Divider -->
+    <div class="section-divider">
+      <span class="section-divider-icon"><i class="fas fa-chevron-down"></i></span>
+    </div>
+    <!-- --- EDUCATION & ORGANIZATION SECTION --- -->
+    <section id="education" class="education-section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="edu_title">Pendidikan dan Organisasi</h2>
+        <p class="section-subtitle" data-i18n="edu_subtitle">Perjalanan akademik, prestasi perguruan tinggi, dan pengalaman
+          organisasi selama perkuliahan.</p>
+
+        <!-- 1. Academic Education Card -->
+        <div class="education-academic-card glass-card">
+          <div class="edu-academic-header">
+            <div class="edu-academic-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <div class="edu-academic-title-box">
+              <span class="edu-degree-badge" data-i18n="edu_degree">Sarjana Teknik (S.T)</span>
+              <h3 data-i18n="edu_univ">Universitas Muhammadiyah Prof. DR. HAMKA (UHAMKA)</h3>
+              <p class="edu-major" data-i18n="edu_major">S1 Teknik Informatika <span class="timeline-sep">|</span> <span
+                  class="edu-period">2021 - 2025</span></p>
+            </div>
+            <div class="edu-gpa-badge">
+              <span class="gpa-label">IPK / GPA</span>
+              <span class="gpa-val">3.92 <small>/ 4.00</small></span>
+              <span class="gpa-honors" data-i18n="edu_honors"><i class="fas fa-award"></i> Lulusan Terbaik</span>
+            </div>
+          </div>
+          <div class="edu-academic-body">
+            <p data-i18n="edu_academic_desc">Lulusan Terbaik Fakultas Teknologi Industri dan Informatika (FTII) UHAMKA dengan predikat Cum Laude.
+              Memiliki fokus keahlian pada IT Governance, IT Project Administration, Front-End Development, dan Quality
+              Assurance (QA) Testing.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2. Organization Experience Timeline -->
+        <div class="work-timeline">
+
+          <!-- Org Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <span class="timeline-date" data-i18n="date_aug24_nov24">Agustus 2024 - November 2024</span>
+              <div class="timeline-img-wrapper">
+                <img src="assets/pengmas_bogor.png" alt="Pengabdian Masyarakat Dosen Bogor" loading="lazy">
+              </div>
+            </div>
+            <div class="timeline-track">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="glass-card timeline-card">
+                <div class="timeline-card-header">
+                  <h3 class="timeline-role-company" data-i18n="org1_role_company">Pengabdian Masyarakat Dosen <span class="timeline-sep">|</span>
+                    <span class="timeline-role-badge">Anggota</span>
+                  </h3>
+                  <div class="timeline-location" data-i18n="org1_loc"><i class="fas fa-map-marker-alt"></i> Bogor</div>
+                </div>
+                <ul class="timeline-tasks" data-i18n="org1_tasks">
+                  <li>Membuat website untuk promosi wisata Arca Domas di Desa Sukaresmi, Bogor.</li>
+                  <li>Menyusun naskah buku mengenai Eduekowisata Desa Sukaresmi.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Org Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <span class="timeline-date" data-i18n="date_nov23_may24">November 2023 - Mei 2024</span>
+              <div class="timeline-img-wrapper">
+                <img src="assets/panitia_pkm.png" alt="Panitia PKM Center FTII 2024" loading="lazy">
+              </div>
+            </div>
+            <div class="timeline-track">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="glass-card timeline-card">
+                <div class="timeline-card-header">
+                  <h3 class="timeline-role-company" data-i18n="org2_role_company">Panitia PKM Center FTII 2024 <span class="timeline-sep">|</span>
+                    <span class="timeline-role-badge">Data Analyst</span>
+                  </h3>
+                  <div class="timeline-location" data-i18n="org2_loc"><i class="fas fa-map-marker-alt"></i> Jakarta Timur</div>
+                </div>
+                <ul class="timeline-tasks" data-i18n="org2_tasks">
+                  <li>Mengolah data terkait judul, dosen pembimbing, dan proposal peserta PKM menggunakan <em>Microsoft
+                      Excel</em>.</li>
+                  <li>Merekap dan memverifikasi kelengkapan data peserta PKM secara berkala untuk keperluan pelaporan.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Org Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <span class="timeline-date" data-i18n="date_jun23_sep23">Juni 2023 - September 2023</span>
+              <div class="timeline-img-wrapper">
+                <img src="assets/talent_ftii.png" alt="Talent FTII UHAMKA" loading="lazy">
+              </div>
+            </div>
+            <div class="timeline-track">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="glass-card timeline-card">
+                <div class="timeline-card-header">
+                  <h3 class="timeline-role-company" data-i18n="org3_role_company">Talent FTII UHAMKA <span class="timeline-sep">|</span> <span
+                      class="timeline-role-badge">Talent</span></h3>
+                  <div class="timeline-location" data-i18n="org3_loc"><i class="fas fa-map-marker-alt"></i> Jakarta Timur</div>
+                </div>
+                <ul class="timeline-tasks" data-i18n="org3_tasks">
+                  <li>Menjadi talent dalam pembuatan konten kreatif Instagram dan TikTok untuk meningkatkan brand
+                    awareness serta promosi fakultas.</li>
+                  <li>Berperan aktif menyampaikan informasi program kampus secara kreatif melalui konten video
+                    interaktif yang mampu menarik minat calon mahasiswa baru.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Org Item 4 -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <span class="timeline-date" data-i18n="date_hakteknas">11 - 13 Agustus 2023</span>
+              <div class="timeline-img-wrapper">
+                <img src="assets/hakteknas.png" alt="Pameran Riset dan Inovasi HAKTEKNAS ke-28" loading="lazy">
+              </div>
+            </div>
+            <div class="timeline-track">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="glass-card timeline-card">
+                <div class="timeline-card-header">
+                  <h3 class="timeline-role-company" data-i18n="org4_role_company">HAKTEKNAS ke-28 <span class="timeline-sep">|</span> <span
+                      class="timeline-role-badge">Co-Organized</span></h3>
+                  <div class="timeline-location" data-i18n="org4_loc"><i class="fas fa-map-marker-alt"></i> Jakarta Pusat</div>
+                </div>
+                <ul class="timeline-tasks" data-i18n="org4_tasks">
+                  <li>Menjadi bagian dari delegasi Uhamka yang berperan sebagai <em>Co-Organized</em> pada Pameran Riset
+                    dan Inovasi HAKTEKNAS ke-28 yang diselenggarakan Kemendikbudristek.</li>
+                  <li>Turut mendemonstrasikan inovasi kreatif karya dosen dan mahasiswa Uhamka — Bola Makhorijul Huruf
+                    edisi ke-2, Mesin Pirolisis (pengubah limbah plastik menjadi minyak), dan Mesin CNC 3D Printer —
+                    kepada pengunjung pameran.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Org Item 5 -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <span class="timeline-date" data-i18n="date_jun23_aug23">Juni 2023 - Agustus 2023</span>
+              <div class="timeline-img-wrapper">
+                <img src="assets/pengmas_banten.png" alt="Pengabdian Masyarakat Dosen Tangerang" loading="lazy">
+              </div>
+            </div>
+            <div class="timeline-track">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="glass-card timeline-card">
+                <div class="timeline-card-header">
+                  <h3 class="timeline-role-company" data-i18n="org5_role_company">Pengabdian Masyarakat Dosen <span class="timeline-sep">|</span>
+                    <span class="timeline-role-badge">Anggota</span>
+                  </h3>
+                  <div class="timeline-location" data-i18n="org5_loc"><i class="fas fa-map-marker-alt"></i> Tangerang</div>
+                </div>
+                <ul class="timeline-tasks" data-i18n="org5_tasks">
+                  <li>Membuat video tutorial penggunaan <em>LiveWorksheet</em> sebagai panduan bagi guru dan siswa.</li>
+                  <li>Menyusun modul pembelajaran penggunaan <em>LiveWorksheet</em> untuk kegiatan belajar mengajar.
+                  </li>
+                  <li>Menjadi fasilitator pelatihan penggunaan <em>LiveWorksheet</em> di MAN 3 Tangerang.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Org Item 6 -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <span class="timeline-date" data-i18n="date_may23_aug23">Mei 2023 - Agustus 2023</span>
+              <div class="timeline-img-wrapper">
+                <img src="assets/project_game.png" alt="Project Game Antar Fakultas" loading="lazy">
+              </div>
+            </div>
+            <div class="timeline-track">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="glass-card timeline-card">
+                <div class="timeline-card-header">
+                  <h3 class="timeline-role-company" data-i18n="org6_role_company">Project Game Antar Fakultas <span class="timeline-sep">|</span>
+                    <span class="timeline-role-badge">Anggota</span>
+                  </h3>
+                  <div class="timeline-location" data-i18n="org6_loc"><i class="fas fa-map-marker-alt"></i> Jakarta Timur</div>
+                </div>
+                <ul class="timeline-tasks" data-i18n="org6_tasks">
+                  <li>Mendesain game Ular Tangga Perpajakan menggunakan <em>Adobe Animate</em> dan bahasa pemrograman
+                    <em>ActionScript</em>.
+                  </li>
+                  <li>Membuat dan mengimplementasikan tampilan kuis perpajakan pada <em>board</em> game.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Org Item 7 -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <span class="timeline-date" data-i18n="date_dec22_nov23">Desember 2022 - November 2023</span>
+              <div class="timeline-img-wrapper">
+                <img src="assets/pkm_ftii.png" alt="PKM FTII UHAMKA" loading="lazy">
+              </div>
+            </div>
+            <div class="timeline-track">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="glass-card timeline-card">
+                <div class="timeline-card-header">
+                  <h3 class="timeline-role-company" data-i18n="org7_role_company">PKM FTII UHAMKA <span class="timeline-sep">|</span> <span
+                      class="timeline-role-badge">Anggota</span></h3>
+                  <div class="timeline-location" data-i18n="org7_loc"><i class="fas fa-map-marker-alt"></i> Jakarta Timur</div>
+                </div>
+                <ul class="timeline-tasks" data-i18n="org7_tasks">
+                  <li>Membuat proposal dan mengoordinasikan keperluan pendanaan untuk perancangan dan pembuatan robot.
+                  </li>
+                  <li>Berkoordinasi dengan tim dalam proses perancangan dan pembuatan robot sesuai <em>timeline</em>
+                    proposal.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Org Item 8 -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <span class="timeline-date" data-i18n="date_jul22_oct22">Juli 2022 - Oktober 2022</span>
+              <div class="timeline-img-wrapper">
+                <img src="assets/pemira_uhamka.png" alt="PEMIRA FTII UHAMKA" loading="lazy">
+              </div>
+            </div>
+            <div class="timeline-track">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="glass-card timeline-card">
+                <div class="timeline-card-header">
+                  <h3 class="timeline-role-company" data-i18n="org8_role_company">PEMIRA FTII UHAMKA <span class="timeline-sep">|</span> <span
+                      class="timeline-role-badge">Bendahara</span></h3>
+                  <div class="timeline-location" data-i18n="org8_loc"><i class="fas fa-map-marker-alt"></i> Jakarta Timur</div>
+                </div>
+                <ul class="timeline-tasks" data-i18n="org8_tasks">
+                  <li>Mengatur dan mengoordinasikan keuangan PEMIRA FT UHAMKA secara tertulis.</li>
+                  <li>Membuat laporan kondisi dan program keuangan secara berkala.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Divider -->
+    <div class="section-divider">
+      <span class="section-divider-icon"><i class="fas fa-chevron-down"></i></span>
+    </div>
+
+    <!-- --- EXPERIENCE SECTION --- -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title" data-i18n="exp_title">Pengalaman Kerja</h2>
+        <p class="section-subtitle" data-i18n="exp_subtitle">Pengalaman kerja profesional, kontribusi proyek, serta pencapaian di
+          dunia industri.</p>
+
+        <!-- Work Timeline Container -->
+        <div class="work-timeline">
+
+          <!-- Item 1: Pelindo (Sep 2025 - Agustus 2026) -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <span class="timeline-date" data-i18n="date_exp_pelindo">September 2025 - Agustus 2026</span>
+              <div class="timeline-img-wrapper">
+                <img src="assets/pelabuhan_tanjung_priok.png" alt="PT Pelabuhan Indonesia (Persero) - Pelindo"
+                  loading="lazy">
+              </div>
+            </div>
+            <div class="timeline-track">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="glass-card timeline-card">
+                <div class="timeline-card-header">
+                  <h3 class="timeline-role-company" data-i18n="exp1_role_company">IT Governance dan Front End Developer <span
+                      class="timeline-sep">|</span> <span class="timeline-company">PT Pelabuhan Indonesia
+                      (Persero)</span></h3>
+                  <div class="timeline-location" data-i18n="exp1_loc"><i class="fas fa-map-marker-alt"></i> Jakarta Utara</div>
+                </div>
+                <ul class="timeline-tasks" data-i18n="exp1_tasks">
+                  <li>Menyusun dan mendokumentasikan <em>Standard Operating Procedure</em> (SOP) dalam bentuk flowchart
+                    untuk mendukung efektivitas proses kerja.</li>
+                  <li>Mengembangkan fitur request regulasi dan watermark otomatis pada dokumen di
+                    website <em>IVO E-Office</em> pada PT Pelabuhan Tanjung Priok (Non Petikemas).</li>
+                  <li>Mengembangkan fitur dashboard monitoring kapal yang sedang melakukan aktivitas bongkar
+                    muat pada website <em>Tally HBT</em> pada PT Pelabuhan Tanjung Priok (Non Petikemas).</li>
+                  <li>Mengelola <em>Minutes of Meeting</em> (MoM), <em>User Acceptance Testing</em> (UAT), dan <em>User
+                      Guide</em> aplikasi <em>Tally HBT</em>, serta PIR aplikasi lainnya.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Brantas Abipraya (Mar 2024 - Apr 2024) -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <span class="timeline-date" data-i18n="date_exp_brantas">Maret 2024 - April 2024</span>
+              <div class="timeline-img-wrapper">
+                <img src="assets/brantas_abipraya.png" alt="PT Brantas Abipraya (Persero)" loading="lazy">
+              </div>
+            </div>
+            <div class="timeline-track">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="glass-card timeline-card">
+                <div class="timeline-card-header">
+                  <h3 class="timeline-role-company" data-i18n="exp2_role_company">Multimedia <span class="timeline-sep">|</span> <span
+                      class="timeline-company">PT Brantas Abipraya (Persero)</span></h3>
+                  <div class="timeline-location" data-i18n="exp2_loc"><i class="fas fa-map-marker-alt"></i> Jakarta Timur</div>
+                </div>
+                <ul class="timeline-tasks" data-i18n="exp2_tasks">
+                  <li>Merancang dan membuat flyer digital untuk kegiatan <em>Workshop</em> Fotografi, mulai
+                    dari konsep visual, tata letak, hingga hasil akhir yang siap dipublikasikan.</li>
+                  <li>Bertugas sebagai <em>Master of Ceremony</em> (MC) pada kegiatan <em>Workshop</em> Fotografi,
+                    memastikan acara berjalan lancar, tepat waktu, dan sesuai dengan susunan acara yang telah
+                    ditentukan.</li>
+                  <li>Mengelola sistem presensi peserta melalui <em>Google Form</em>, termasuk pembuatan formulir,
+                    monitoring kehadiran secara <em>real-time</em>, dan rekapitulasi data peserta untuk keperluan
+                    pelaporan.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: BPTI UHAMKA (Oct 2023 - Jan 2024) -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <span class="timeline-date" data-i18n="date_exp_bpti">Oktober 2023 - Januari 2024</span>
+              <div class="timeline-img-wrapper">
+                <img src="assets/bpti.png" alt="BPTI UHAMKA" loading="lazy">
+              </div>
+            </div>
+            <div class="timeline-track">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="glass-card timeline-card">
+                <div class="timeline-card-header">
+                  <h3 class="timeline-role-company" data-i18n="exp3_role_company">Multimedia <span class="timeline-sep">|</span> <span
+                      class="timeline-company">BPTI UHAMKA</span></h3>
+                  <div class="timeline-location" data-i18n="exp3_loc"><i class="fas fa-map-marker-alt"></i> Jakarta Timur</div>
+                </div>
+                <ul class="timeline-tasks" data-i18n="exp3_tasks">
+                  <li>Mengembangkan video tutorial untuk penggunaan Website Akademik UHAMKA agar memudahkan pengguna
+                    dalam mengakses fitur-fitur akademik.</li>
+                  <li>Membuat video tutorial terkait aktivasi <em>Pop-Up Blocker</em> sebagai panduan
+                    <em>Troubleshooting</em> bagi pengguna.
+                  </li>
+                  <li>Menulis artikel edukatif dan merancang flyer mengenai isu <em>Cyber Security</em>, termasuk
+                    <em>Malware</em> dan <em>Scam</em>, untuk meningkatkan literasi digital pengguna.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: UHAMKA (Oct 2022 - Sep 2023) -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <span class="timeline-date" data-i18n="date_exp_perpus">Oktober 2022 - September 2023</span>
+              <div class="timeline-img-wrapper">
+                <img src="assets/asisten_perpustakaan.png" alt="Universitas Muhammadiyah Prof. DR. HAMKA"
+                  loading="lazy">
+              </div>
+            </div>
+            <div class="timeline-track">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="glass-card timeline-card">
+                <div class="timeline-card-header">
+                  <h3 class="timeline-role-company" data-i18n="exp4_role_company">Asisten Perpustakaan <span class="timeline-sep">|</span> <span
+                      class="timeline-company">Universitas Muhammadiyah Prof. DR. HAMKA</span></h3>
+                  <div class="timeline-location" data-i18n="exp4_loc"><i class="fas fa-map-marker-alt"></i> Jakarta Timur</div>
+                </div>
+                <ul class="timeline-tasks" data-i18n="exp4_tasks">
+                  <li>Melakukan pengecekan <em>similarity</em> dan <em>plagiarism</em> skripsi mahasiswa serta memproses
+                    administrasi bebas pustaka menggunakan sistem perpustakaan berbasis TI.</li>
+                  <li>Melakukan pengecekan, pendataan, dan pencatatan transaksi peminjaman serta pengembalian buku
+                    melalui sistem informasi perpustakaan.</li>
+                  <li>Mengelola operasional dan administrasi perpustakaan, termasuk pengarsipan digital dan manajemen
+                    koleksi.</li>
+                  <li>Menjadi panitia Pendidikan Pemakaian Perpustakaan (P3) bagi mahasiswa baru, termasuk memberikan
+                    edukasi mengenai penggunaan sistem informasi perpustakaan.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Divider -->
+    <div class="section-divider">
+      <span class="section-divider-icon"><i class="fas fa-chevron-down"></i></span>
+    </div>
+
+    <!-- --- PROJECT SECTION --- -->
+    <section id="project" class="portfolio">
+      <div class="container">
+        <h2 class="section-title" data-i18n="proj_title">Projects dan Karya Ilmiah</h2>
+        <p class="section-subtitle" data-i18n="proj_subtitle">Hasil projects, publikasi jurnal ilmiah, HKI, sertifikasi,
+          dan lain-lainnya.</p>
+
+        <!-- Category Filter -->
+        <div class="portfolio-filter-container">
+          <button class="filter-btn active" data-filter="project" data-i18n="filter_project">Projects</button>
+          <button class="filter-btn" data-filter="buku" data-i18n="filter_buku">Buku</button>
+          <button class="filter-btn" data-filter="hki" data-i18n="filter_hki">HKI</button>
+          <button class="filter-btn" data-filter="jurnal" data-i18n="filter_jurnal">Jurnal</button>
+          <button class="filter-btn" data-filter="sertifikat" data-i18n="filter_sertifikat">Sertifikasi</button>
+        </div>
+
+        <!-- Project Grid -->
+        <!-- ======= PROJECT CARDS ======= -->
+
+        <!-- Section 1: Website & Aplikasi -->
+        <div class="project-group-banner portfolio-card show" data-category="project" data-subcategory="web-app" data-i18n="banner_webapp">
+          <div class="project-group-title"><i class="fas fa-laptop-code"></i> Website & Aplikasi</div>
+          <span class="project-group-badge">4 Projects</span>
+        </div>
+
+        <!-- Project 01: Tally HBT -->
+        <div class="jurnal-ojs-card portfolio-card show" data-category="project" data-subcategory="web-app">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">01</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-ship"></i> Port & Logistics Operations</span>
+              <span class="jurnal-tag-year">2026</span>
+              <span class="live-status-pill"><i class="fas fa-circle text-success"></i> Production Web</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Tally HBT (Pelabuhan Tanjung Priok)</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-user-tie"></i> Penanggung Jawab</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-code-branch"></i> Peran</span><span class="jurnal-meta-value">Front-End Developer & IT Governance</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-globe"></i> Fokus Bidang</span><span class="jurnal-meta-value">Port Logistics & Real-Time Vessel Monitoring</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i> Tanggal</span><span class="jurnal-meta-value">Agustus 2026</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Project</h4>
+              <p>Aplikasi operasional monitoring bongkar muat kapal dan pencatatan tally pelabuhan secara real-time pada PT Pelabuhan Tanjung Priok (Non Petikemas) yang terintegrasi dengan pelaporan logistik.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://tallyhbt.ptp.co.id/" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Kunjungi Website</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 02: LUPI (Ludo Pajak Indonesia) -->
+        <div class="jurnal-ojs-card portfolio-card show" data-category="project" data-subcategory="web-app">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">02</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-gamepad"></i> Educational Web Game</span>
+              <span class="jurnal-tag-year">2026</span>
+              <span class="live-status-pill"><i class="fas fa-circle text-success"></i> Live Web App</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">LUPI (Ludo Pajak Indonesia)</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-user-tie"></i> Penanggung Jawab</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-code-branch"></i> Peran</span><span class="jurnal-meta-value">Web Developer & Game Designer</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-dice"></i> Fokus Bidang</span><span class="jurnal-meta-value">Gamified Tax Literacy & Multiplayer Web Game</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i> Tanggal</span><span class="jurnal-meta-value">Juli 2026</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Project</h4>
+              <p>Permainan edukasi perpajakan interaktif berbasis web dengan mekanisme papan Ludo multipemain untuk meningkatkan kesadaran dan literasi pajak masyarakat secara kompetitif dan kolaboratif.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://ludo-pajak-indonesia.vercel.app" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Mainkan Game</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 03: IVO E-Office -->
+        <div class="jurnal-ojs-card portfolio-card show" data-category="project" data-subcategory="web-app">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">03</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-file-signature"></i> Enterprise E-Office</span>
+              <span class="jurnal-tag-year">2025</span>
+              <span class="live-status-pill"><i class="fas fa-circle text-success"></i> Enterprise System</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">IVO E-Office (Pelabuhan Tanjung Priok)</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-user-tie"></i> Penanggung Jawab</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-code-branch"></i> Peran</span><span class="jurnal-meta-value">Front-End Developer</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-file-contract"></i> Fokus Bidang</span><span class="jurnal-meta-value">Digital Document Workflow, Regulation Request & Watermark Automation</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i> Tanggal</span><span class="jurnal-meta-value">Desember 2025</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Project</h4>
+              <p>Platform tata kelola persuratan, administrasi digital, dan permintaan regulasi enterprise pada PT Pelabuhan Tanjung Priok (Non Petikemas) dengan implementasi watermark dokumen otomatis.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://ivo.ptp.co.id/" target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Kunjungi Portal</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 04: ARTAJAK (Ular Tangga Pajak) -->
+        <div class="jurnal-ojs-card portfolio-card show" data-category="project" data-subcategory="web-app">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">04</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fab fa-google-play"></i> Android Mobile App</span>
+              <span class="jurnal-tag-year">2023</span>
+              <span class="live-status-pill"><i class="fas fa-check-circle text-success"></i> Google Play Store</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">ARTAJAK (Ular Tangga Pajak)</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-user-tie"></i> Penanggung Jawab</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-code-branch"></i> Peran</span><span class="jurnal-meta-value">Game Developer & UI Designer</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-mobile-alt"></i> Fokus Bidang</span><span class="jurnal-meta-value">Educational Mobile Game & Early Childhood Tax Literacy</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i> Tanggal</span><span class="jurnal-meta-value">Juli 2023</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Project</h4>
+              <p>Aplikasi game edukasi Android yang memadukan permainan ular tangga interaktif dengan kuis literasi pajak untuk siswa sekolah dasar, resmi terbit di Google Play Store dan bersertifikat HKI.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://play.google.com/store/apps/details?id=com.artajak.rckyapp" target="_blank" class="btn btn-primary btn-sm"><i class="fab fa-google-play"></i> Buka di Play Store</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 2: Quality Assurance Testing -->
+        <div class="project-group-banner portfolio-card show" data-category="project" data-subcategory="qa" data-i18n="banner_qa">
+          <div class="project-group-title"><i class="fas fa-vial"></i> Quality Assurance Testing</div>
+          <span class="project-group-badge">2 Projects</span>
+        </div>
+
+        <!-- Project 01: UAT Tally HBT -->
+        <div class="jurnal-ojs-card portfolio-card show" data-category="project" data-subcategory="qa">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">01</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-vial"></i> Quality Assurance & UAT</span>
+              <span class="jurnal-tag-year">2026</span>
+              <span class="live-status-pill"><i class="fas fa-check-circle text-success"></i> Testing Matrix</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">UAT Tally HBT (User Acceptance Testing)</h3>
+            </div>
+
+            <!-- Visual Spreadsheet Preview Mockup -->
+            <div class="project-visual-preview">
+              <div class="sheet-mockup">
+                <div class="sheet-topbar">
+                  <div class="sheet-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                  </div>
+                  <div class="sheet-filename"><i class="fas fa-file-excel"></i> UAT_Execution_Matrix_Tally_HBT.xlsx
+                  </div>
+                  <div class="sheet-status-tag"><i class="fab fa-google-drive"></i> Live Spreadsheet</div>
+                </div>
+                <div class="sheet-kpi-row">
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Fokus Pengujian</span>
+                    <span class="kpi-val">QA Testing & UAT</span>
+                  </div>
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Status UAT</span>
+                    <span class="kpi-val text-success"><i class="fas fa-check-double"></i> Passed & Verified</span>
+                  </div>
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Sistem / Platform</span>
+                    <span class="kpi-val">Tally HBT System</span>
+                  </div>
+                </div>
+                <div class="sheet-table-preview">
+                  <div class="sheet-row header-row">
+                    <span>No</span>
+                    <span>Modul / Skenario Pengujian</span>
+                    <span>Tester / PIC</span>
+                    <span>Status UAT</span>
+                    <span>Pass Rate</span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>1</span>
+                    <span>Form Input Transaksi & Validasi Data Tally</span>
+                    <span>Elsa Apriani</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i> Passed</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 100%"></div>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>2</span>
+                    <span>Sinkronisasi Data & Alur Bisnis HBT</span>
+                    <span>QA & User Tester</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i> Passed</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 100%"></div>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>3</span>
+                    <span>Error Handling, Edge Cases & Security Test</span>
+                    <span>QA Testing</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i>
+                        Verified</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 95%"></div>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+                <a href="https://docs.google.com/spreadsheets/d/1loRkQetXbjrn7cAmpbc5LD5pRZwBJhH00o0X1YirlNI/edit?gid=473028190#gid=473028190"
+                  target="_blank" class="sheet-hover-overlay">
+                  <span class="overlay-btn"><i class="fas fa-external-link-alt"></i> Buka Full Spreadsheet UAT</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-user-tie"></i> Penanggung
+                  Jawab</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-tasks"></i> Fokus
+                  Bidang</span><span class="jurnal-meta-value">Quality Assurance (QA) Testing & User Acceptance Testing
+                  (UAT)</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-table"></i>
+                  Media</span><span class="jurnal-meta-value">Google Spreadsheet UAT Matrix Tracker</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tahun</span><span class="jurnal-meta-value">2026</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Project</h4>
+              <p>Lembar kerja pengujian User Acceptance Testing (UAT) komprehensif pada sistem aplikasi Tally HBT,
+                mencakup skenario pengujian fungsional (test cases), verifikasi alur bisnis, pencatatan bug/discrepancy,
+                serta validasi kesiapan sistem sebelum tahap go-live.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://docs.google.com/spreadsheets/d/1loRkQetXbjrn7cAmpbc5LD5pRZwBJhH00o0X1YirlNI/edit?gid=473028190#gid=473028190"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Buka Spreadsheet
+                UAT</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 02: User Guide Tally HBT -->
+        <div class="jurnal-ojs-card portfolio-card show" data-category="project" data-subcategory="qa">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">02</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-book-reader"></i> Technical Documentation &
+                Guide</span>
+              <span class="jurnal-tag-year">2026</span>
+              <span class="live-status-pill"><i class="fas fa-file-pdf text-danger"></i> User Manual</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">User Guide Tally HBT (Manual Book)</h3>
+            </div>
+
+            <!-- Visual Document Preview Mockup -->
+            <div class="project-visual-preview">
+              <div class="sheet-mockup">
+                <div class="sheet-topbar">
+                  <div class="sheet-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                  </div>
+                  <div class="sheet-filename"><i class="fas fa-file-pdf" style="color: #ff5722;"></i>
+                    User_Guide_Sistem_Tally_HBT_v1.0.pdf</div>
+                  <div class="sheet-status-tag"><i class="fab fa-google-drive"></i> Google Drive PDF</div>
+                </div>
+                <div class="sheet-kpi-row">
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Jenis Dokumen</span>
+                    <span class="kpi-val">User Manual & SOP Guide</span>
+                  </div>
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Target Pengguna</span>
+                    <span class="kpi-val text-success"><i class="fas fa-users-cog"></i> End-User & Admin</span>
+                  </div>
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Sistem / Modul</span>
+                    <span class="kpi-val">Tally HBT System</span>
+                  </div>
+                </div>
+                <div class="sheet-table-preview">
+                  <div class="sheet-row header-row">
+                    <span>Bab</span>
+                    <span>Struktur Panduan & Materi Operasional</span>
+                    <span>Tipe Konten</span>
+                    <span>Status Panduan</span>
+                    <span>Kelengkapan</span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>01</span>
+                    <span>Pengenalan Navigasi & Setup Hak Akses Tally</span>
+                    <span>Panduan Awal</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i> Lengkap</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 100%"></div>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>02</span>
+                    <span>Alur Input Transaksi, Validasi & Pemrosesan Data</span>
+                    <span>Step-by-Step</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i> Lengkap</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 100%"></div>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>03</span>
+                    <span>Troubleshooting, Penanganan Error & FAQ</span>
+                    <span>Problem Solving</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i>
+                        Terstandar</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 100%"></div>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+                <a href="https://drive.google.com/file/d/11vxXe_uNgsnMc3H1jg7h1sMzwgC1UBy2/view?usp=sharing"
+                  target="_blank" class="sheet-hover-overlay">
+                  <span class="overlay-btn"><i class="fas fa-file-pdf"></i> Buka Full User Guide (PDF)</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-user-tie"></i> Penanggung
+                  Jawab</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-book"></i> Fokus
+                  Bidang</span><span class="jurnal-meta-value">Technical Writing, IT Documentation & System
+                  Operations</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-file-alt"></i>
+                  Media</span><span class="jurnal-meta-value">Google Drive PDF Digital Guidebook</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tahun</span><span class="jurnal-meta-value">2026</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Project</h4>
+              <p>Buku panduan operasional pengguna (User Guide / Manual Book) resmi untuk sistem aplikasi Tally HBT.
+                Menyajikan panduan langkah-demi-langkah (step-by-step), navigasi antarmuka pengguna, standarisasi alur
+                kerja transaksi, serta panduan penanganan kendala umum (troubleshooting) bagi pengguna akhir.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/11vxXe_uNgsnMc3H1jg7h1sMzwgC1UBy2/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Buka User Guide (PDF)</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 3: IT Administrator & Strategic Governance -->
+        <div class="project-group-banner portfolio-card show" data-category="project" data-subcategory="it-admin" data-i18n="banner_itadmin">
+          <div class="project-group-title"><i class="fas fa-server"></i> IT Administrator & Strategic Governance</div>
+          <span class="project-group-badge">4 Projects</span>
+        </div>
+
+        <!-- Project 01: Monitoring Insight Portal -->
+        <div class="jurnal-ojs-card portfolio-card show" data-category="project" data-subcategory="it-admin">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">01</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-chart-line"></i> Monitoring & Portal Analytics</span>
+              <span class="jurnal-tag-year">2026</span>
+              <span class="live-status-pill"><i class="fas fa-circle text-success"></i> Live Dashboard</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Monitoring Insight Portal</h3>
+            </div>
+
+            <!-- Visual Spreadsheet Preview Mockup -->
+            <div class="project-visual-preview">
+              <div class="sheet-mockup">
+                <div class="sheet-topbar">
+                  <div class="sheet-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                  </div>
+                  <div class="sheet-filename"><i class="fas fa-file-excel"></i> Monitoring_Insight_Portal_Analytics.xlsx
+                  </div>
+                  <div class="sheet-status-tag"><i class="fab fa-google-drive"></i> Live Spreadsheet</div>
+                </div>
+                <div class="sheet-kpi-row">
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Fokus Platform</span>
+                    <span class="kpi-val">Insight Portal</span>
+                  </div>
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Tipe Monitoring</span>
+                    <span class="kpi-val text-success"><i class="fas fa-tachometer-alt"></i> Web Analytics & Logs</span>
+                  </div>
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Format Data</span>
+                    <span class="kpi-val">Real-time Metrics</span>
+                  </div>
+                </div>
+                <div class="sheet-table-preview">
+                  <div class="sheet-row header-row">
+                    <span>No</span>
+                    <span>Modul Portal & Metrik</span>
+                    <span>PIC Pengembang</span>
+                    <span>Status Tracker</span>
+                    <span>Availability</span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>1</span>
+                    <span>Integrasi API Data & Performance Query</span>
+                    <span>Elsa Apriani</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i>
+                        Operational</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 100%"></div>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>2</span>
+                    <span>Dashboard Visualisasi Metrik & User Traffic</span>
+                    <span>Portal Dev Team</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i> Live
+                        Sync</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 95%"></div>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>3</span>
+                    <span>Log Aktivitas, Security Alert & Uptime</span>
+                    <span>IT Operations</span>
+                    <span><span class="status-badge-mini in-progress"><i class="fas fa-spinner fa-spin"></i>
+                        Monitoring</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 88%"></div>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+                <a href="https://docs.google.com/spreadsheets/d/1fGUle-hWJh6tezGRlxeXE8oEG5nAGOtSfi-Mm9Wwtqs/edit?gid=0#gid=0"
+                  target="_blank" class="sheet-hover-overlay">
+                  <span class="overlay-btn"><i class="fas fa-external-link-alt"></i> Buka Full Spreadsheet Portal</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-user-tie"></i> Penanggung
+                  Jawab</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-laptop-code"></i> Fokus
+                  Bidang</span><span class="jurnal-meta-value">Web Application Analytics & Portal Performance
+                  Monitoring</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-table"></i>
+                  Media</span><span class="jurnal-meta-value">Google Spreadsheet Live Analytics</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tahun</span><span class="jurnal-meta-value">2026</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Project</h4>
+              <p>Sistem lembar kerja pemantauan terpusat untuk metrik performa, lalu lintas data, integrasi portal, dan
+                kesehatan operasional website Insight Portal secara akurat dan berkelanjutan.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://docs.google.com/spreadsheets/d/1fGUle-hWJh6tezGRlxeXE8oEG5nAGOtSfi-Mm9Wwtqs/edit?gid=0#gid=0"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Buka
+                Spreadsheet</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 02: Monitoring SOP -->
+        <div class="jurnal-ojs-card portfolio-card show" data-category="project" data-subcategory="it-admin">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">02</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-tasks"></i> Monitoring & SOP</span>
+              <span class="jurnal-tag-year">2026</span>
+              <span class="live-status-pill"><i class="fas fa-circle text-success"></i> Live Tracker</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Monitoring SOP (Standard Operating Procedure)</h3>
+            </div>
+
+            <!-- Visual Spreadsheet Preview Mockup -->
+            <div class="project-visual-preview">
+              <div class="sheet-mockup">
+                <div class="sheet-topbar">
+                  <div class="sheet-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                  </div>
+                  <div class="sheet-filename"><i class="fas fa-file-excel"></i> Monitoring_SOP_IT_Governance_2026.xlsx
+                  </div>
+                  <div class="sheet-status-tag"><i class="fab fa-google-drive"></i> Live Spreadsheet</div>
+                </div>
+                <div class="sheet-kpi-row">
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Fokus Area</span>
+                    <span class="kpi-val">IT Governance</span>
+                  </div>
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Status SOP</span>
+                    <span class="kpi-val text-success"><i class="fas fa-check-circle"></i> Active & Monitored</span>
+                  </div>
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Akses Dokumen</span>
+                    <span class="kpi-val">Google Sheets Real-time</span>
+                  </div>
+                </div>
+                <div class="sheet-table-preview">
+                  <div class="sheet-row header-row">
+                    <span>No</span>
+                    <span>Judul Dokumen SOP</span>
+                    <span>Kategori</span>
+                    <span>PIC Penyusun</span>
+                    <span>Status Verifikasi</span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>1</span>
+                    <span>SOP Backup dan Recovery Database</span>
+                    <span>Infrastruktur TI</span>
+                    <span>Elsa Apriani</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i> Verified</span></span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>2</span>
+                    <span>SOP Pengelolaan Hak Akses Pengguna</span>
+                    <span>Security & Access</span>
+                    <span>Elsa Apriani</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i> Verified</span></span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>3</span>
+                    <span>SOP Pemeliharaan Rutin Data Center</span>
+                    <span>Data Center</span>
+                    <span>Elsa Apriani</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i> Verified</span></span>
+                  </div>
+                </div>
+                <a href="https://docs.google.com/spreadsheets/d/1Xl2fWzL3423Z568E-45j4HwMhYk2J-9K/edit?usp=sharing"
+                  target="_blank" class="sheet-hover-overlay">
+                  <span class="overlay-btn"><i class="fas fa-external-link-alt"></i> Buka Full Spreadsheet SOP</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-user-shield"></i>
+                  Penyusun</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-file-invoice"></i> Total
+                  SOP</span><span class="jurnal-meta-value">14 Dokumen SOP Terstandarisasi</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-sitemap"></i> Fokus
+                  SOP</span><span class="jurnal-meta-value">IT Governance, Backup, Hak Akses, Server & Data
+                  Center</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-table"></i> Media
+                  Monitoring</span><span class="jurnal-meta-value">Google Spreadsheet Tracker Real-time</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tahun</span><span class="jurnal-meta-value">2026</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi SOP</h4>
+              <p>Dokumentasi dan sistem pemantauan komprehensif 14 Standard Operating Procedure (SOP) tata kelola
+                teknologi informasi yang mencakup prosedur backup data, manajemen hak akses, pemeliharaan data center,
+                dan kepatuhan operasional TI berbasis spreadsheet interaktif real-time.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://docs.google.com/spreadsheets/d/1Xl2fWzL3423Z568E-45j4HwMhYk2J-9K/edit?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Buka
+                Spreadsheet SOP</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 03: Project Charter TI 2026 -->
+        <div class="jurnal-ojs-card portfolio-card show" data-category="project" data-subcategory="it-admin">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">03</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-project-diagram"></i> Project Management & IT
+                Charter</span>
+              <span class="jurnal-tag-year">2026</span>
+              <span class="live-status-pill"><i class="fas fa-circle text-success"></i> Active Charter</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Project Charter TI 2026</h3>
+            </div>
+
+            <!-- Visual Spreadsheet Preview Mockup -->
+            <div class="project-visual-preview">
+              <div class="sheet-mockup">
+                <div class="sheet-topbar">
+                  <div class="sheet-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                  </div>
+                  <div class="sheet-filename"><i class="fas fa-file-excel"></i> Project_Charter_TI_Master_2026.xlsx
+                  </div>
+                  <div class="sheet-status-tag"><i class="fab fa-google-drive"></i> Live Spreadsheet</div>
+                </div>
+                <div class="sheet-kpi-row">
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Fokus Strategis</span>
+                    <span class="kpi-val">IT Governance & PMO</span>
+                  </div>
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Tahapan Proyek</span>
+                    <span class="kpi-val text-success"><i class="fas fa-flag-checkered"></i> Inisiasi & Eksekusi</span>
+                  </div>
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Periode Waktu</span>
+                    <span class="kpi-val">Tahun 2026</span>
+                  </div>
+                </div>
+                <div class="sheet-table-preview">
+                  <div class="sheet-row header-row">
+                    <span>No</span>
+                    <span>Deliverable / Milestone TI</span>
+                    <span>Lead PIC</span>
+                    <span>Status Milestone</span>
+                    <span>Target Capaian</span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>1</span>
+                    <span>Penyusunan Ruang Lingkup & Objective TI</span>
+                    <span>Elsa Apriani</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i>
+                        Approved</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 100%"></div>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>2</span>
+                    <span>Alokasi Resource, Budgeting & Jadwal Kerja</span>
+                    <span>PMO & IT Div</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i> Baseline
+                        OK</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 95%"></div>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>3</span>
+                    <span>Risk Management & Stakeholder Alignment</span>
+                    <span>IT Governance</span>
+                    <span><span class="status-badge-mini in-progress"><i class="fas fa-spinner fa-spin"></i>
+                        Active</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 85%"></div>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+                <a href="https://docs.google.com/spreadsheets/d/11u2PNHMbZhU5M7Sm9L98LsUQmj64cLificseN7PMCTE/edit?gid=0#gid=0"
+                  target="_blank" class="sheet-hover-overlay">
+                  <span class="overlay-btn"><i class="fas fa-external-link-alt"></i> Buka Full Spreadsheet
+                    Charter</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-user-tie"></i> Penanggung
+                  Jawab</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-sitemap"></i> Fokus
+                  Bidang</span><span class="jurnal-meta-value">IT Project Management & IT Charter Governance</span>
+              </div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-table"></i>
+                  Media</span><span class="jurnal-meta-value">Google Spreadsheet Master Charter</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tahun</span><span class="jurnal-meta-value">2026</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Project</h4>
+              <p>Dokumen inisiasi dan piagam manajemen proyek teknologi informasi komprehensif yang memetakan tujuan
+                proyek, ruang lingkup kerja (scope), alokasi sumber daya, stakeholder, jadwal milestone, dan mitigasi
+                risiko teknologi.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://docs.google.com/spreadsheets/d/11u2PNHMbZhU5M7Sm9L98LsUQmj64cLificseN7PMCTE/edit?gid=0#gid=0"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Buka
+                Spreadsheet</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 04: IT Strategic Plan -->
+        <div class="jurnal-ojs-card portfolio-card show" data-category="project" data-subcategory="it-admin">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">04</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-chess"></i> IT Strategic Planning & Governance</span>
+              <span class="jurnal-tag-year">2026</span>
+              <span class="live-status-pill"><i class="fas fa-desktop text-success"></i> Strategy Deck</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">IT Strategic Plan (ITSP)</h3>
+            </div>
+
+            <!-- Visual Presentation Deck Preview Mockup -->
+            <div class="project-visual-preview">
+              <div class="sheet-mockup">
+                <div class="sheet-topbar">
+                  <div class="sheet-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                  </div>
+                  <div class="sheet-filename"><i class="fas fa-file-powerpoint" style="color: #00c4cc;"></i>
+                    IT_Strategic_Plan_2026_Executive_Deck.canva</div>
+                  <div class="sheet-status-tag"><i class="fas fa-palette"></i> Canva Deck</div>
+                </div>
+                <div class="sheet-kpi-row">
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Fokus Utama</span>
+                    <span class="kpi-val">Strategic IT Alignment</span>
+                  </div>
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Pilar Strategis</span>
+                    <span class="kpi-val text-success"><i class="fas fa-layer-group"></i> Architecture & Digital
+                      Transformation</span>
+                  </div>
+                  <div class="sheet-kpi-item">
+                    <span class="kpi-label">Format Media</span>
+                    <span class="kpi-val">Canva Presentation</span>
+                  </div>
+                </div>
+                <div class="sheet-table-preview">
+                  <div class="sheet-row header-row">
+                    <span>No</span>
+                    <span>Pilar Strategis & Deliverable</span>
+                    <span>Domain</span>
+                    <span>Status Roadmap</span>
+                    <span>Target Horizon</span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>1</span>
+                    <span>IT Governance & Policy Framework (COBIT/ITIL)</span>
+                    <span>Governance</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i> Defined</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 100%"></div>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>2</span>
+                    <span>Enterprise Architecture & Infrastructure Roadmap</span>
+                    <span>Architecture</span>
+                    <span><span class="status-badge-mini done"><i class="fas fa-check-circle"></i>
+                        Structured</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 90%"></div>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="sheet-row">
+                    <span>3</span>
+                    <span>Digital Transformation & Cybersecurity Strategy</span>
+                    <span>Innovation</span>
+                    <span><span class="status-badge-mini in-progress"><i class="fas fa-spinner fa-spin"></i> Roadmap
+                        2026</span></span>
+                    <span>
+                      <div class="mini-bar">
+                        <div class="mini-fill" style="width: 85%"></div>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+                <a href="https://canva.link/z297jh9diy5xg9i" target="_blank" class="sheet-hover-overlay">
+                  <span class="overlay-btn"><i class="fas fa-external-link-alt"></i> Buka Presentasi Canva</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-user-tie"></i> Penanggung
+                  Jawab</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-chess-knight"></i> Fokus
+                  Bidang</span><span class="jurnal-meta-value">IT Strategic Planning, Enterprise Architecture & IT
+                  Governance</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-desktop"></i>
+                  Media</span><span class="jurnal-meta-value">Canva Interactive Strategic Presentation</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tahun</span><span class="jurnal-meta-value">2026</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Project</h4>
+              <p>Dokumen dan presentasi strategis perencanaan teknologi informasi (IT Strategic Plan) yang mencakup
+                analisis lanskap TI, roadmap arsitektur enterprise, inisiatif transformasi digital, serta keselarasan
+                strategi TI dengan tujuan jangka panjang organisasi.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://canva.link/z297jh9diy5xg9i" target="_blank" class="btn btn-primary btn-sm"><i
+                  class="fas fa-external-link-alt"></i> Buka Presentasi Canva</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======= BUKU CARDS ======= -->
+
+        <!-- Card Buku 1: Eduekowisata Desa Sukaresmi -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="buku">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">01</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-book-open"></i> Buku Ekowisata & Pemberdayaan</span>
+              <span class="jurnal-tag-year">2025</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Eduekowisata Desa Sukaresmi</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-user-edit"></i>
+                  Penulis</span><span class="jurnal-meta-value">Dr. Lelly Qodariah, M.Pd., Agus Pambudi Dharma, M.Si.,
+                  Atiqah Meutia Hilda, S.Kom., M.Kom., Elsa Apriani, Mercy Dzulhijah, M. Aidil Fikri, Isa Ahmad Mujahid,
+                  M. Arya Ramdhan, Yoga Budi Santoso</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-file-alt"></i>
+                  Halaman</span><span class="jurnal-meta-value">116 Halaman</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Terbit</span><span class="jurnal-meta-value">Januari 2025</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-folder"></i>
+                  Kategori</span><span class="jurnal-meta-value">Buku Referensi / Ekowisata</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Buku</h4>
+              <p>Buku panduan dan kompilasi gagasan pengembangan Eduekowisata Desa Sukaresmi yang berfokus pada potensi
+                keanekaragaman hayati, edukasi lingkungan, serta pemberdayaan ekonomi masyarakat lokal berbasis
+                teknologi dan konsep ekowisata berkelanjutan.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/17McqYa2J39itWr1nTr6BHdClQJGbib42/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Buku</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Buku 2: Teknik Kompresi dan Penyamaran Data -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="buku">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">02</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-book-open"></i> Buku Referensi IT & Keamanan
+                Data</span>
+              <span class="jurnal-tag-year">2024</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Teknik Kompresi dan Penyamaran Data</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-user-edit"></i>
+                  Penulis</span><span class="jurnal-meta-value">Elsa Apriani, Putri Jasmine Aliffiyah, Muhammad Viddya
+                  Zufar, Valent Destra Pasha, Inodhi Putra Pamungkas Anasara, Ahmad Barkah Kurniyawan, Muhammad Yaasiin,
+                  Arifatur al Hafidz, Tasya Nurul Laily, Shofiyah, Salsabila Oktavia Jusuf, Abyan Setyawan Hadi, Adillah
+                  Halim Abiansyah, Farand Syafi Wibowo, Rizki Pratama, Afrian Fadly Handika, Rifqy Maulana, Indy Lia
+                  Tasya, Ahmat Setiawan, Afif Andrian Maulana Rum</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-file-alt"></i>
+                  Halaman</span><span class="jurnal-meta-value">69 Halaman</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Terbit</span><span class="jurnal-meta-value">November 2024</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-folder"></i>
+                  Kategori</span><span class="jurnal-meta-value">Teknologi Informasi / Keamanan Data</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Buku</h4>
+              <p>Buku referensi yang membahas konsep dasar dan terapan algoritma teknik kompresi data serta
+                penyembunyian/penyamaran data (steganografi & kriptografi) untuk keamanan transmisi informasi digital
+                secara efektif.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/19fgj5zGWGY3DCMSBV2V1yecCagCz_mgC/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Buku</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======= HKI CARDS (Journal Style) ======= -->
+
+        <!-- HKI 1: LUPI -->
+        <div class="glass-card portfolio-card hki-edu-card hide" data-category="hki">
+          <div class="hki-edu-left">
+            <div class="hki-number-badge">01</div>
+          </div>
+          <div class="hki-edu-inner">
+            <div class="hki-edu-header">
+              <div class="hki-tags">
+                <span class="hki-tag-type"><i class="fas fa-laptop-code"></i> Program Komputer</span>
+                <span class="hki-tag-year">2026</span>
+              </div>
+              <div class="hki-reg-number"><i class="fas fa-certificate"></i> EC002026119832</div>
+            </div>
+            <h3 class="hki-edu-title">LUPI (Ludo Pajak Indonesia)</h3>
+            <div class="hki-edu-meta">
+              <div class="hki-meta-row"><span class="hki-meta-label"><i class="fas fa-user-edit"></i>
+                  Pencipta</span><span class="hki-meta-value">Atsna Virayani Yusriy Widarey</span></div>
+              <div class="hki-meta-row"><span class="hki-meta-label"><i class="fas fa-university"></i> Pemegang Hak
+                  Cipta</span><span class="hki-meta-value">Atsna Virayani Yusriy Widarey, Dewi Pudji Rahayu, Meita
+                  Larasati, Elsa Apriani, Maulana Rizqy Hidayatulloh</span></div>
+              <div class="hki-meta-row"><span class="hki-meta-label"><i class="fas fa-calendar-check"></i> Tanggal
+                  Terbit</span><span class="hki-meta-value">20 Juli 2026</span></div>
+            </div>
+            <p class="hki-edu-abstract">Permainan edukasi pajak multiplayer berbasis web dengan mekanisme papan
+              permainan Ludo yang dirancang untuk meningkatkan pemahaman perpajakan masyarakat melalui pendekatan
+              gamifikasi yang kolaboratif. Sistem dapat dimainkan secara bersama-sama dengan mekanisme giliran dan
+              pertanyaan perpajakan interaktif.</p>
+            <div class="hki-edu-footer">
+              <a href="https://drive.google.com/file/d/10x6I64h0degpdFxUGuiLtgUe5B38R-Pp/view?usp=drive_link"
+                target="_blank" class="btn btn-primary btn-sm">Lihat Sertifikat</a>
+              <a href="https://pdki-indonesia.dgip.go.id/link/45433030323032363131393833327c636f70797269676874"
+                target="_blank" class="hki-detail-link">Lihat Detail <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- HKI 2: Sipaduwitmi -->
+        <div class="glass-card portfolio-card hki-edu-card hide" data-category="hki">
+          <div class="hki-edu-left">
+            <div class="hki-number-badge">02</div>
+          </div>
+          <div class="hki-edu-inner">
+            <div class="hki-edu-header">
+              <div class="hki-tags">
+                <span class="hki-tag-type"><i class="fas fa-laptop-code"></i> Program Komputer</span>
+                <span class="hki-tag-year">2024</span>
+              </div>
+              <div class="hki-reg-number"><i class="fas fa-certificate"></i> EC002024218461</div>
+            </div>
+            <h3 class="hki-edu-title">Sipaduwitmi</h3>
+            <div class="hki-edu-meta">
+              <div class="hki-meta-row"><span class="hki-meta-label"><i class="fas fa-user-edit"></i>
+                  Pencipta</span><span class="hki-meta-value">Dr. Lelly Qodariah, M. Pd., Agus Pambudi Dharma, M.Si.,
+                  Atiqah Meutia Hilda, S.Kom., M.Kom., Elsa Apriani, Mercy Wulan Dzulhijah, Avrellia Dwi Riantini, M.
+                  Aidil Fikri, Isa Ahmad Mujahid, M. Arya Ramadhan, Yoga Budi Santoso</span></div>
+              <div class="hki-meta-row"><span class="hki-meta-label"><i class="fas fa-university"></i> Pemegang Hak
+                  Cipta</span><span class="hki-meta-value">Universitas Muhammadiyah Prof. Dr. HAMKA (UHAMKA)
+                  Jakarta</span></div>
+              <div class="hki-meta-row"><span class="hki-meta-label"><i class="fas fa-calendar-check"></i> Tanggal
+                  Terbit</span><span class="hki-meta-value">28 Oktober 2024</span></div>
+            </div>
+            <p class="hki-edu-abstract">Platform web yang menggabungkan informasi destinasi ekowisata dengan konten
+              edukasi lingkungan, dirancang untuk mendorong kesadaran masyarakat terhadap pelestarian alam melalui
+              pariwisata berkelanjutan. Sistem ini menyediakan fitur manajemen konten dan informasi wisata terintegrasi
+              khusus untuk Desa Arca Domas, Kabupaten Bogor.</p>
+            <div class="hki-edu-footer">
+              <a href="https://drive.google.com/file/d/1j6fcXNL9QB21rHK2xlVAMoB46lIO7wdU/view?usp=drive_link"
+                target="_blank" class="btn btn-primary btn-sm">Lihat Sertifikat</a>
+              <a href="https://pdki-indonesia.dgip.go.id/link/45433030323032343231383436317c636f70797269676874"
+                target="_blank" class="hki-detail-link">Lihat Detail <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- HKI 3: Modul Liveworksheet -->
+        <div class="glass-card portfolio-card hki-edu-card hide" data-category="hki">
+          <div class="hki-edu-left">
+            <div class="hki-number-badge">03</div>
+          </div>
+          <div class="hki-edu-inner">
+            <div class="hki-edu-header">
+              <div class="hki-tags">
+                <span class="hki-tag-type"><i class="fas fa-file-alt"></i> Modul Pembelajaran</span>
+                <span class="hki-tag-year">2023</span>
+              </div>
+              <div class="hki-reg-number"><i class="fas fa-certificate"></i> EC00202389700</div>
+            </div>
+            <h3 class="hki-edu-title">Modul Interaktif Dengan Live Worksheet</h3>
+            <div class="hki-edu-meta">
+              <div class="hki-meta-row"><span class="hki-meta-label"><i class="fas fa-user-edit"></i>
+                  Pencipta</span><span class="hki-meta-value">Yuni Astuti, M.Pd., Devi Anugrah, M.Pd., Atiqah Meutia
+                  Hilda, M.Kom., Elsa Apriani, Annisa Aprilia, Violitta Oktaviani, Syakila Putri Radilla</span></div>
+              <div class="hki-meta-row"><span class="hki-meta-label"><i class="fas fa-university"></i> Pemegang Hak
+                  Cipta</span><span class="hki-meta-value">Yuni Astuti, M.Pd., Devi Anugrah, M.Pd.</span></div>
+              <div class="hki-meta-row"><span class="hki-meta-label"><i class="fas fa-calendar-check"></i> Tanggal
+                  Terbit</span><span class="hki-meta-value">5 Oktober 2023</span></div>
+            </div>
+            <p class="hki-edu-abstract">Modul pembelajaran interaktif menggunakan platform Liveworksheet yang dirancang
+              untuk mendigitalisasi lembar kerja siswa. Modul ini dilengkapi dengan fitur multimedia, drag-and-drop,
+              serta umpan balik otomatis yang dapat mempermudah guru dalam proses evaluasi dan meningkatkan partisipasi
+              aktif siswa dalam pembelajaran jarak jauh maupun tatap muka.</p>
+            <div class="hki-edu-footer">
+              <a href="https://drive.google.com/file/d/1l0FB7m_Dv412poguGkCzAzeax8LgIMYP/view?usp=drive_link"
+                target="_blank" class="btn btn-primary btn-sm">Lihat Sertifikat</a>
+              <a href="https://pdki-indonesia.dgip.go.id/link/454330303230323338393730307c636f70797269676874"
+                target="_blank" class="hki-detail-link">Lihat Detail <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- HKI 4: ARTAJAK -->
+        <div class="glass-card portfolio-card hki-edu-card hide" data-category="hki">
+          <div class="hki-edu-left">
+            <div class="hki-number-badge">04</div>
+          </div>
+          <div class="hki-edu-inner">
+            <div class="hki-edu-header">
+              <div class="hki-tags">
+                <span class="hki-tag-type"><i class="fas fa-laptop-code"></i> Program Komputer</span>
+                <span class="hki-tag-year">2023</span>
+              </div>
+              <div class="hki-reg-number"><i class="fas fa-certificate"></i> EC00202381061</div>
+            </div>
+            <h3 class="hki-edu-title">ARTAJAK (Ular Tangga Pajak)</h3>
+            <div class="hki-edu-meta">
+              <div class="hki-meta-row"><span class="hki-meta-label"><i class="fas fa-user-edit"></i>
+                  Pencipta</span><span class="hki-meta-value">Atsna Virayani Yusriy Widarey</span></div>
+              <div class="hki-meta-row"><span class="hki-meta-label"><i class="fas fa-university"></i> Pemegang Hak
+                  Cipta</span><span class="hki-meta-value">Atsna Virayani Yusriy Widarey, Dewi Pudji Rahayu, S.E.,
+                  M.Si., Hafizh Dhery Al Assyam, Elsa Apriani</span></div>
+              <div class="hki-meta-row"><span class="hki-meta-label"><i class="fas fa-calendar-check"></i> Tanggal
+                  Terbit</span><span class="hki-meta-value">14 September 2023</span></div>
+            </div>
+            <p class="hki-edu-abstract">Permainan edukasi berbasis web yang menggabungkan mekanisme permainan ular
+              tangga dengan materi pengetahuan perpajakan secara interaktif dan menyenangkan untuk meningkatkan literasi
+              pajak anak-anak sekolah dasar. Aplikasi dikembangkan menggunakan metode prototipe dengan pengujian pada
+              siswa sekolah dasar.</p>
+            <div class="hki-edu-footer">
+              <a href="https://drive.google.com/file/d/1AMX2bU2V8gZa7YuPBcxTO7WaHaXgRIhY/view?usp=drive_link"
+                target="_blank" class="btn btn-primary btn-sm">Lihat Sertifikat</a>
+              <a href="https://pdki-indonesia.dgip.go.id/link/454330303230323338313036317c636f70797269676874"
+                target="_blank" class="hki-detail-link">Lihat Detail <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======= JURNAL CARDS ======= -->
+
+        <!-- Card 1: Jurnal (Juli 2025) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="jurnal">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">01</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-journal-whills"></i> Metik Jurnal (SINTA 3)</span>
+              <span class="jurnal-tag-year">2025</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Perancangan Sistem Pengenalan Tulisan Tangan Pada Jawaban Esai Menggunakan
+                Metode CNN-LSTM Berbasis Android</h3>
+              <div class="jurnal-doi-badge"><i class="fas fa-link"></i> 10.47002/metik.v9i1.1094</div>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-users"></i>
+                  Penulis</span><span class="jurnal-meta-value">Elsa Apriani, Nunik Pratiwi</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-book"></i>
+                  Volume</span><span class="jurnal-meta-value">Vol. 9</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-hashtag"></i>
+                  Issue/No</span><span class="jurnal-meta-value">No. 2</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-file-alt"></i>
+                  Halaman</span><span class="jurnal-meta-value">1-23</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Terbit</span><span class="jurnal-meta-value">1 Juli 2025</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Abstract</h4>
+              <p>Penelitian ini merancang aplikasi Android berbasis CNN dan LSTM untuk mengenali tulisan tangan siswa
+                guna mempercepat penilaian esai, dengan hasil akurasi 60,37%, CER 16,84%, dan WER 78,41%, serta seluruh
+                fitur berfungsi baik berdasarkan Black Box Testing sebagai dasar pengembangan digitalisasi penilaian ke
+                depan.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/18uU0ahcKT3ndjke8RSD6mVI6so7EIWRa/view?usp=drive_link"
+                target="_blank" class="btn btn-primary btn-sm">Lihat Jurnal</a>
+              <a href="https://journal.universitasmulia.ac.id/index.php/metik/article/view/1094" target="_blank"
+                class="hki-detail-link">Lihat Detail <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Jurnal (Januari 2025) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="jurnal">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">02</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-journal-whills"></i> JPTI (SINTA 3)</span>
+              <span class="jurnal-tag-year">2025</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Analisis Sentimen Game Show Clash of Champions Ruangguru dengan Algoritma KNN
+                dan SVM</h3>
+              <div class="jurnal-doi-badge"><i class="fas fa-link"></i> 10.56854/jpti.v3i1.556</div>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-users"></i>
+                  Penulis</span><span class="jurnal-meta-value">Elsa Apriani, Nunik Pratiwi</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-book"></i>
+                  Volume</span><span class="jurnal-meta-value">Vol. 5</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-hashtag"></i>
+                  Issue/No</span><span class="jurnal-meta-value">No. 1</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-file-alt"></i>
+                  Halaman</span><span class="jurnal-meta-value">39-51</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Terbit</span><span class="jurnal-meta-value">15 Januari 2025</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Abstract</h4>
+              <p>Penelitian ini membandingkan algoritma KNN dan SVM untuk analisis sentimen publik terhadap acara Clash
+                of Champions Ruangguru, dengan hasil KNN lebih unggul (akurasi 74,01%) dibanding SVM (73,68%) dalam
+                mendeteksi sentimen positif dan negatif secara lebih stabil.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1oZ3NfsxljfD1zKBEqTQXM-f9TVk0aZN7/view?usp=drive_link"
+                target="_blank" class="btn btn-primary btn-sm">Lihat Jurnal</a>
+              <a href="https://jpti.journals.id/index.php/jpti/article/view/556" target="_blank"
+                class="hki-detail-link">Lihat Detail <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Jurnal (Desember 2024) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="jurnal">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">03</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-journal-whills"></i> JMM (SINTA 3)</span>
+              <span class="jurnal-tag-year">2024</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Pengembangan Desa Eduekowisata Melalui Pendampingan Terpadu Kampung Tematik
+                Arca Domas, Kabupaten Bogor</h3>
+              <div class="jurnal-doi-badge"><i class="fas fa-link"></i> 10.31764/jmm.v8i6.27577</div>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-users"></i>
+                  Penulis</span><span class="jurnal-meta-value">Lelly Qodariah, Agus Pambudi Dharma, Atiqah Meutia
+                  Hilda, Elsa Apriani, Mercy Dzulhijah, Yoga Budi Santoso, Isa Ahmad Mujahid, Arya Raadhan, Aidil, Dwi
+                  Avrelia</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-book"></i>
+                  Volume</span><span class="jurnal-meta-value">Vol. 8</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-hashtag"></i>
+                  Issue/No</span><span class="jurnal-meta-value">No. 6</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-file-alt"></i>
+                  Halaman</span><span class="jurnal-meta-value">6558-6570</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Terbit</span><span class="jurnal-meta-value">10 Desember 2024</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Abstract</h4>
+              <p>Kegiatan pengabdian ini bertujuan meningkatkan pengetahuan dan keterampilan mitra Kelompok Tani Hutan
+                Arca Domas (21 anggota) melalui pelatihan pengolahan kotoran kambing menjadi pupuk organik dan
+                pengelolaan website desa eduekowisata, yang terbukti efektif dengan N-Gain Score 77% serta menghasilkan
+                website bernama sipaduwitmi.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1Bpz87lYwYaH6ImvR2iENlqOzWWoT-aez/view?usp=drive_link"
+                target="_blank" class="btn btn-primary btn-sm">Lihat Jurnal</a>
+              <a href="https://journal.ummat.ac.id/index.php/jmm/article/view/27577" target="_blank"
+                class="hki-detail-link">Lihat Detail <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Jurnal (Juli 2024) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="jurnal">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">04</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-journal-whills"></i> MALCOM (SINTA 3)</span>
+              <span class="jurnal-tag-year">2024</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Analisis Sentimen Penggunaan TikTok Sebagai Media Pembelajaran Menggunakan
+                Algoritma Na-ve Bayes Classifier</h3>
+              <div class="jurnal-doi-badge"><i class="fas fa-link"></i> 10.56943/malcom.v4i3.1482</div>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-users"></i>
+                  Penulis</span><span class="jurnal-meta-value">Elsa Apriani, Isa Faqihuddin Hanif, Falah
+                  Oktavianalisti, La Denna Hasri Monasari, Indah Winarni</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-book"></i>
+                  Volume</span><span class="jurnal-meta-value">Vol. 4</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-hashtag"></i>
+                  Issue/No</span><span class="jurnal-meta-value">No. 3</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-file-alt"></i>
+                  Halaman</span><span class="jurnal-meta-value">1160-1168</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Terbit</span><span class="jurnal-meta-value">22 Juli 2024</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Abstract</h4>
+              <p>Penelitian ini menganalisis sentimen 176 responden terhadap penggunaan TikTok sebagai media
+                pembelajaran menggunakan algoritma Na-ve Bayes, menghasilkan akurasi 52,27%, presisi 19,60%, dan recall
+                50,83%, yang meski relatif rendah tetap memberikan gambaran awal persepsi pengguna untuk pengembangan
+                konten edukasi di TikTok.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1yJ4cCfFIvhIgUEQsV5d6fhJvbX5zUclX/view?usp=drive_link"
+                target="_blank" class="btn btn-primary btn-sm">Lihat Jurnal</a>
+              <a href="https://www.journal.irpi.or.id/index.php/malcom/article/view/1482" target="_blank"
+                class="hki-detail-link">Lihat Detail <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: Jurnal (Desember 2023) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="jurnal">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">05</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-journal-whills"></i> Proceeding TEKNOKA</span>
+              <span class="jurnal-tag-year">2023</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Rancang Bangun Game Edukasi Ular Tangga Pajak (ARTAJAK) sebagai Media
+                Interaktif untuk Menarik Kesadaran Pajak Anak Sekolah Dasar</h3>
+              <div class="jurnal-doi-badge"><i class="fas fa-link"></i> 10.22236/teknoka.v8i.13867</div>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-users"></i>
+                  Penulis</span><span class="jurnal-meta-value">Elsa Apriani, Rahmi Imanda, Hafizh Dhery Al Assyam,
+                  Atsna Virayani Yusriy Widarey</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-book"></i>
+                  Volume</span><span class="jurnal-meta-value">Vol. 8</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-hashtag"></i>
+                  Issue/No</span><span class="jurnal-meta-value">No. 1</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-file-alt"></i>
+                  Halaman</span><span class="jurnal-meta-value">26-34</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Terbit</span><span class="jurnal-meta-value">5 Desember 2023</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Abstract</h4>
+              <p>Penelitian ini mengembangkan game ular tangga berbasis kuis bernama ARTAJAK menggunakan metode
+                prototipe untuk mengedukasi anak sekolah dasar tentang konsep dasar pajak, yang terbukti mampu menambah
+                wawasan perpajakan siswa berdasarkan uji coba pada 5 siswa SD.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1rXJ_mpyLGAnAZ64psAZA_mg1wXuJO9Je/view?usp=drive_link"
+                target="_blank" class="btn btn-primary btn-sm">Lihat Jurnal</a>
+              <a href="https://journal.uhamka.ac.id/index.php/teknoka/article/view/13867" target="_blank"
+                class="hki-detail-link">Lihat Detail <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======= SERTIFIKASI CARDS ======= -->
+
+        <!-- Sertifikat 01: Wisudawan Berprestasi Teknik Informatika (2025) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">01</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Penghargaan
+                Akademik</span>
+              <span class="jurnal-tag-year">2025</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Wisudawan Berprestasi Teknik Informatika UHAMKA 2025</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-university"></i> Program
+                  Studi</span><span class="jurnal-meta-value">Teknik Informatika</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">20 Desember 2025</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat apresiasi dan penghargaan sebagai Peserta Wisuda Berprestasi Teknik Informatika atas
+                pencapaian akademik dan kontribusi luar biasa selama masa studi.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1-WHJjMc4Y9pTQDtCYQF5tagDHnPOsto5/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 02: Tim Support Teknoka (2024) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">02</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Kepanitiaan &
+                Event</span>
+              <span class="jurnal-tag-year">2024</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Tim Support Teknoka (Bidang Naskah)</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-users"></i>
+                  Peran</span><span class="jurnal-meta-value">Tim Support Bidang Naskah</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">30 November 2024</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat kontribusi sebagai Tim Support teknis dan operasional bidang naskah dalam penyelenggaraan
+                Seminar Nasional Teknoka.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1ZTuoJxS2t_Ha54tnQLVzKHGCGKkVGjdt/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 03: Fasilitator Pengabdian Masyarakat di Bogor (2024) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">03</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Pengabdian
+                Masyarakat</span>
+              <span class="jurnal-tag-year">2024</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Fasilitator Pengabdian Masyarakat di Bogor</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-hands-helping"></i>
+                  Peran</span><span class="jurnal-meta-value">Pelaksana & Fasilitator Pengmas</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">15 Oktober 2024</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat apresiasi atas pelaksanaan kegiatan Pengabdian Kepada Masyarakat (Pengmas) pendampingan
+                teknologi digital di Bogor.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1Oy9ORcseS9WtNyUzt4GpQqM2kRlpVSoG/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 04: Aplikasi Game Artajak (2024) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">04</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Project &
+                Kompetensi</span>
+              <span class="jurnal-tag-year">2024</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Aplikasi Game Artajak</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-tasks"></i>
+                  Kategori</span><span class="jurnal-meta-value">Pengembangan Game Edukasi Interaktif</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">28 Mei 2024</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat bukti kontribusi dan pencapaian dalam perancangan serta pengembangan Game Edukasi Ular
+                Tangga Pajak (Artajak) untuk literasi perpajakan anak sekolah dasar.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1Gw4WhsZfwQaXbYkHHSi5zzM3IcdeYk8p/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 05: Pemakalah Seminar Nasional Teknoka (2023) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">05</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Pemakalah Seminar</span>
+              <span class="jurnal-tag-year">2023</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Pemakalah Seminar Nasional</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-file-alt"></i>
+                  Peran</span><span class="jurnal-meta-value">Pemakalah Makalah Ilmiah Teknoka</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">2 Desember 2023</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat apresiasi sebagai pemakalah atas kontribusi penulisan dan penyampaian karya ilmiah riset
+                pada Seminar Nasional Teknoka.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1I50CL8g27zEty4PGdwEM07bNmBjEhH7O/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 06: Presenter Seminar Nasional Teknoka (2023) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">06</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Presenter /
+                Pemakalah</span>
+              <span class="jurnal-tag-year">2023</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Presenter Seminar Nasional</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-microphone"></i>
+                  Peran</span><span class="jurnal-meta-value">Presenter Utama Seminar Nasional Teknoka</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">2 Desember 2023</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat penghargaan sebagai Presenter pada Seminar Nasional Teknoka dalam mempresentasikan hasil
+                karya tulis dan penelitian ilmiah.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1HjV4SfSie14ZA-gHemj2pFKWmQuBWq8A/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 07: Pendanaan PKM Kemdikbudristek (2023) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">07</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Hibah & Pendanaan
+                PKM</span>
+              <span class="jurnal-tag-year">2023</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">PKM Kemdikbudristek</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-university"></i>
+                  Penyelenggara</span><span class="jurnal-meta-value">Kemdikbudristek RI</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">15 November 2023</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat penghargaan atas lolosnya pendanaan hibah Program Kreativitas Mahasiswa (PKM) nasional yang
+                diselenggarakan oleh Kemdikbudristek RI.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1cEA_R-ZWY_bnFXKD-l2HNuSuM2HcWOEf/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 08: Lomba PKP2 Ke-2 PTMA (2023) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">08</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Kompetisi &
+                Kejuaraan</span>
+              <span class="jurnal-tag-year">2023</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Lomba PKP2 Ke-2 PTMA</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-trophy"></i>
+                  Kategori</span><span class="jurnal-meta-value">Perlombaan PKP2 Ke-2 PTMA</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">01 Oktober 2023</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat keikutsertaan dan penghargaan pada ajang Perlombaan Program Penilaian Kemajuan Pelaksanaan
+                PKM (PKP2 Ke-2 PTMA).</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1kuseeWOnPldX4OHCvZeRfQPfuHWz_yiv/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 09: Fasilitator Pengabdian Masyarakat di Banten (2023) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">09</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Pengabdian
+                Masyarakat</span>
+              <span class="jurnal-tag-year">2023</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Fasilitator Pengabdian Masyarakat di Banten</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-map-marker-alt"></i>
+                  Lokasi</span><span class="jurnal-meta-value">Desa Sukaresmi, Banten (Eduekowisata)</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">8 Agustus - 5 September 2023</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat kontribusi dalam kegiatan Pengabdian Kepada Masyarakat (Pengmas) pendampingan dan
+                pengembangan potensi Eduekowisata Desa Sukaresmi, Banten.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1oKb6wD1G_dJvJKD-qMYyL8f3-LlDOvR_/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 10: Lomba PKP2 Ke-1 PTMA (2023) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">10</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Kompetisi &
+                Kejuaraan</span>
+              <span class="jurnal-tag-year">2023</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Lomba PKP2 Ke-1 PTMA</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-trophy"></i>
+                  Kategori</span><span class="jurnal-meta-value">Perlombaan PKP2 Ke-1 PTMA</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">22-23 Juli 2023</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat keikutsertaan dan penghargaan pada ajang Perlombaan Program Penilaian Kemajuan Pelaksanaan
+                PKM (PKP2 Ke-1 PTMA).</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1zB7qZbs-IIgKH1jcdEI7aRqgbBd9Ife2/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 11: PKM Universitas (Uhamka) (2023) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">11</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Program Kreativitas
+                Mahasiswa</span>
+              <span class="jurnal-tag-year">2023</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">PKM Universitas</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-university"></i>
+                  Penyelenggara</span><span class="jurnal-meta-value">Universitas Muhammadiyah Prof. DR. HAMKA</span>
+              </div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">6 Maret 2023</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat keikutsertaan dan pendanaan Program Kreativitas Mahasiswa (PKM) di tingkat universitas.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/18I7tOnjjXPtqK42Rf8wlmexydSAy_ipx/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 12: ASEAN Digital Literacy Programme (2023) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">12</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Digital Literacy &
+                International</span>
+              <span class="jurnal-tag-year">2023</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">ASEAN Digital Literacy Programme 2022-2023</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-globe"></i>
+                  Penyelenggara</span><span class="jurnal-meta-value">ASEAN Foundation</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">04 Februari 2023</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat partisipasi dan kelulusan program Literasi Digital Internasional 2022-2023 yang
+                diselenggarakan oleh ASEAN Digital Literacy Programme.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1BSK7Tk0uMvOTArKnVb_u_W8qHYwTquhT/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 13: Microsoft Excel 2016 (2022) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">13</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Kompetensi
+                Software</span>
+              <span class="jurnal-tag-year">2022</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Microsoft Excel 2016</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-table"></i>
+                  Keahlian</span><span class="jurnal-meta-value">Pengolahan Data & Formula Microsoft Excel</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">12 November 2022</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat kelulusan uji kompetensi penguasaan Microsoft Office Excel 2016 untuk pemrosesan data,
+                pengolahan tabel, dan analisis data spreadsheet.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1gTQZGdQrEMNFoTpgJ9HyyansQP6VMj0S/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 14: Copywriter (2022) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">14</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Professional Skill</span>
+              <span class="jurnal-tag-year">2022</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Copywriter</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-pen-nib"></i>
+                  Bidang</span><span class="jurnal-meta-value">Copywriting & Digital Marketing</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">Oktober 2022</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat kompetensi penulisan pesan persuasif, penulisan konten digital, dan strategi copywriting.
+              </p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/19dxAdeoKNIW3E9jiVXjk_-m9KZiiuvbg/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 15: Next.js (2022) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">15</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Software & Web
+                Development</span>
+              <span class="jurnal-tag-year">2022</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Next.js</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-code"></i>
+                  Keahlian</span><span class="jurnal-meta-value">Front-End Framework Next.js</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">10 Juni 2022</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat kompetensi pengembangan aplikasi web modern berbasis framework React / Next.js.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/1otVN5oIwUlA6R10dCRjTj4EkNksSHyC7/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat 16: Data Analyst (2022) -->
+        <div class="jurnal-ojs-card portfolio-card hide" data-category="sertifikat">
+          <div class="jurnal-ojs-left">
+            <span class="jurnal-ojs-number">16</span>
+          </div>
+          <div class="jurnal-ojs-inner">
+            <div class="jurnal-tags">
+              <span class="jurnal-tag-publisher"><i class="fas fa-certificate"></i> Sertifikat Professional Skill</span>
+              <span class="jurnal-tag-year">2022</span>
+            </div>
+            <div class="jurnal-ojs-header">
+              <h3 class="jurnal-ojs-title">Data Analyst</h3>
+            </div>
+            <div class="jurnal-ojs-meta">
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-award"></i>
+                  Penerima</span><span class="jurnal-meta-value">Elsa Apriani</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-chart-bar"></i>
+                  Bidang</span><span class="jurnal-meta-value">Data Analysis & Visualization</span></div>
+              <div class="jurnal-meta-row"><span class="jurnal-meta-label"><i class="fas fa-calendar-alt"></i>
+                  Tanggal</span><span class="jurnal-meta-value">08 Januari 2022</span></div>
+            </div>
+            <div class="jurnal-ojs-abstract-section">
+              <h4>Deskripsi Sertifikat</h4>
+              <p>Sertifikat keikutsertaan dan keahlian dalam analisis data, pengolahan dataset, serta visualisasi data
+                bisnis.</p>
+            </div>
+            <div class="jurnal-ojs-footer">
+              <a href="https://drive.google.com/file/d/17Co1bKRXlhCNOL4ba7QdWV28LrEz-Rfv/view?usp=sharing"
+                target="_blank" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section Divider -->
+    <div class="section-divider">
+      <span class="section-divider-icon"><i class="fas fa-chevron-down"></i></span>
+    </div>
+    <!-- --- CONTACT SECTION --- -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title" data-i18n="contact_title">Kontak Aku</h2>
+        <p class="section-subtitle" data-i18n="contact_subtitle">Mari berdiskusi mengenai peluang karir, kolaborasi proyek, atau diskusi profesional.
+        </p>
+
+        <div class="contact-split-wrapper">
+
+          <!-- LEFT: Dark Info Card -->
+          <div class="contact-dark-card">
+            <div class="contact-dark-header">
+              <span class="contact-dark-label" data-i18n="contact_info_label">INFO KONTAK</span>
+              <h3 data-i18n="contact_connect_title">Let's Connect</h3>
+              <p data-i18n="contact_desc">Aku terbuka untuk peluang kerja sama, diskusi proyek, atau sekadar bertukar ide.</p>
+            </div>
+
+            <div class="contact-dark-methods">
+              <div class="contact-dark-item">
+                <div class="contact-dark-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-dark-text">
+                  <span class="contact-dark-method-label" data-i18n="contact_email_label">EMAIL</span>
+                  <a href="mailto:elsaapriani14@gmail.com">elsaapriani14@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-dark-item">
+                <div class="contact-dark-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-dark-text">
+                  <span class="contact-dark-method-label" data-i18n="contact_address_label">ALAMAT</span>
+                  <span>Jakarta, Indonesia</span>
+                </div>
+              </div>
+
+              <div class="contact-dark-item">
+                <div class="contact-dark-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-dark-text">
+                  <span class="contact-dark-method-label" data-i18n="contact_response_label">JAM RESPONS</span>
+                  <span data-i18n="contact_response_val">Senin - Jumat, 09.00 - 17.00 WIB</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="contact-dark-socials">
+              <a href="https://www.instagram.com/ecaaprn" target="_blank" rel="noopener noreferrer"
+                aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/elsaaapriani" target="_blank" rel="noopener noreferrer"
+                aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/ecaaprn" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i
+                  class="fab fa-github"></i></a>
+              <a href="https://scholar.google.co.id/citations?hl=en&amp;user=dqh8njkAAAAJ&amp;view_op=list_works&amp;gmla=AKCpqFz5dWI0NPgNSK_D6A1xSk6MrHUkl-1BaHx7QLtHyD_mLeZuH3_dVjpVW5HKQS2A5zeYU8aoNTapF5hAZFBj"
+                target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><i
+                  class="fas fa-graduation-cap"></i></a>
+            </div>
+          </div>
+
+          <!-- RIGHT: Contact Form -->
+          <div class="contact-form-section">
+            <div class="contact-form-header">
+              <span class="contact-form-label" data-i18n="contact_form_badge">KIRIM PESAN</span>
+              <h3 data-i18n="contact_form_heading">Formulir Kontak</h3>
+            </div>
+
+            <form id="contact-form" class="contact-form-clean" autocomplete="off">
+              <div class="form-group-clean">
+                <label for="name" data-i18n="form_name_label">NAMA</label>
+                <input type="text" id="name" class="form-input-clean" placeholder="Masukkan nama kamu" required data-i18n-placeholder="form_name_placeholder">
+              </div>
+
+              <div class="form-group-clean">
+                <label for="email" data-i18n="form_email_label">EMAIL</label>
+                <input type="email" id="email" class="form-input-clean" placeholder="contoh@email.com" required data-i18n-placeholder="form_email_placeholder">
+              </div>
+
+              <div class="form-group-clean">
+                <label for="message" data-i18n="form_message_label">PESAN</label>
+                <textarea id="message" class="form-input-clean" rows="5" placeholder="Tulis pesan kamu di sini..."
+                  required data-i18n-placeholder="form_message_placeholder"></textarea>
+              </div>
+
+              <button type="submit" class="btn-kirim-pesan" data-i18n="form_submit_btn">
+                <i class="fas fa-paper-plane"></i> Kirim Pesan
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- --- FOOTER --- -->
+  <footer>
+    <div class="container footer-content">
+      <p class="footer-text">&copy; 2026 Elsa Apriani. <span data-i18n="footer_rights">Hak Cipta Dilindungi.</span></p>
+    </div>
+  </footer>
+
+  <!-- --- TOAST SUCCESS NOTIFICATION --- -->
+  <div class="toast-container">
+    <div id="success-toast" class="toast">
+      <div class="toast-icon">
+        <i class="fas fa-check"></i>
+      </div>
+      <span id="toast-msg">Pesan berhasil terkirim!</span>
+    </div>
+  </div>
+
+  <!-- Custom JS -->
+  <script src="script.js?v=20260914_14"></script>
+</body>
+
+</html>
